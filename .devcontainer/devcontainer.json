@@ -1,0 +1,9 @@
+{
+    "name": "Detect Secrets",
+    "build" : {
+        "dockerfile": "Dockerfile",
+        "context": "."
+    },
+    "remoteUser": "root",
+    "postCreateCommand": ".devcontainer/postCreateCommand.sh"
+}
